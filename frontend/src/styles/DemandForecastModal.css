@@ -1,0 +1,17 @@
+.chart-container {
+    position: relative; /* Make the chart container the reference point */
+  }
+  
+  .chart {
+    position: absolute;
+    top: 0; /* Adjust top position as needed */
+    left: 0;
+    width: 500px; /* Adjust width as needed */
+    height: 300px;
+  }
+  
+  .table {
+    position: relative; /* Position table relative to the chart container */
+    top: 320px; /* Adjust top position to avoid overlap */
+    left: 0;
+  }
