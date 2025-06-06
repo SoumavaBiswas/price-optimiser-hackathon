@@ -1,26 +1,148 @@
-product_id,name,description,cost_price,selling_price,category,stock_available,units_sold,customer_rating,demand_forecast,optimized_price
-1,Eco-Friendly Water Bottle,"A sustainable, reusable water bottle made from recycled materials.",5.0,12.99,Outdoor & Sports,500,200,4,250,11.5
-2,Wireless Earbuds,Bluetooth 5.0 wireless earbuds with noise cancellation and long battery life.,25.0,59.99,Electronics,300,150,5,180,55.0
-3,Organic Cotton T-Shirt,"Soft, breathable t-shirt made from 100% organic cotton.",8.0,19.99,Apparel,400,100,4,120,18.5
-4,Smart Home Hub,Control all your smart home devices with this central hub.,40.0,99.99,Home Automation,150,75,4,90,95.0
-5,Electric Scooter,Lightweight electric scooter with a range of 20 miles.,150.0,299.99,Transportation,80,40,5,50,285.0
-6,Noise-Canceling Headphones,Over-ear headphones with active noise cancellation.,50.0,129.99,Electronics,200,90,4,110,125.0
-7,Smartwatch,Feature-packed smartwatch with heart rate monitor and GPS.,70.0,149.99,Wearables,250,130,5,160,145.0
-8,Portable Solar Charger,Compact solar charger for outdoor use.,20.0,39.99,Outdoor & Sports,300,140,4,170,38.0
-9,Fitness Tracker,Wearable fitness tracker with sleep monitoring.,30.0,59.99,Wearables,350,180,4,200,57.0
-10,Bluetooth Speaker,Portable Bluetooth speaker with excellent sound quality.,15.0,45.99,Electronics,400,210,4,240,43.0
-11,Ergonomic Office Chair,"Comfortable office chair with lumbar support and adjustable height.",80.0,199.99,Furniture,150,60,4,75,190.0
-12,4K Action Camera,"Waterproof action camera with 4K resolution and wide-angle lens.",60.9,159.99,Electronics,200,120,5,135,150.0
-13,Organic Herbal Tea,"Premium blend of organic herbs for relaxation and wellness.",3.5,9.99,Beverages,500,300,4,350,9.5
-14,Electric Kettle,Fast-boiling electric kettle with auto shut-off.,20.0,49.99,Kitchen Appliances,350,200,5,230,48.0
-15,Standing Desk,"Height-adjustable standing desk for ergonomic workspace setup.",100.0,299.99,Furniture,80,40,5,50,285.0
-16,LED Desk Lamp,"Energy-efficient desk lamp with adjustable brightness and USB port.",15.0,35.99,Office Supplies,400,150,4,180,33.0
-17,Reusable Grocery Bags,"Set of eco-friendly reusable grocery bags in various sizes.",2.0,10.99,Household Essentials,600,300,4,340,10.0
-18,Digital Air Fryer,"Healthy cooking with a digital air fryer that uses little to no oil.",60.0,149.99,Kitchen Appliances,200,90,4,110,145.0
-19,Travel Backpack,"Durable travel backpack with multiple compartments and laptop sleeve.",25.0,69.99,Outdoor & Sports,300,140,4,160,68.0
-20,Mechanical Keyboard,"High-quality mechanical keyboard with customizable RGB lighting.",50.0,129.99,Electronics,250,130,5,160,125.0
-21,Wireless Charging Pad,"Fast wireless charging pad compatible with all Qi-enabled devices.",10.0,29.99,Electronics,500,200,5,230,28.5
-22,Smart Door Lock,"Secure smart lock with remote access and fingerprint scanner.",75.0,199.99,Home Automation,120,60,4,75,195.0
-23,Outdoor Camping Tent,"Lightweight, waterproof camping tent for 2-3 people.",40.0,89.99,Outdoor & Sports,100,50,5,60,85.0
-24,Laptop Cooling Pad,"Portable cooling pad with USB-powered fans for laptops.",15.0,39.99,Electronics,300,150,4,180,38.0
-25,Electric Toothbrush,"Rechargeable electric toothbrush with multiple cleaning modes.",20.0,59.99,Personal Care,400,180,5,210,57.0
+product_id,name,cost_price,selling_price,category,stock_available,units_sold,customer_rating,demand_forecast,optimized_price
+1,Eco-Friendly Water Bottle,5.0,12.99,Outdoor & Sports,500,200,4,250,11.5
+2,Wireless Earbuds,25.0,59.99,Electronics,300,150,5,180,55.0
+3,Organic Cotton T-Shirt,8.0,19.99,Apparel,400,100,4,120,18.5
+4,Smart Home Hub,40.0,99.99,Home Automation,150,75,4,90,95.0
+5,Electric Scooter,150.0,299.99,Transportation,80,40,5,50,285.0
+6,Noise-Canceling Headphones,50.0,129.99,Electronics,200,90,4,110,125.0
+7,Smartwatch,70.0,149.99,Wearables,250,130,5,160,145.0
+8,Portable Solar Charger,20.0,39.99,Outdoor & Sports,300,140,4,170,38.0
+9,Fitness Tracker,30.0,59.99,Wearables,350,180,4,200,57.0
+10,Bluetooth Speaker,15.0,45.99,Electronics,400,210,4,240,43.0
+11,UV Sanitizer Box,18.0,49.99,Health,250,110,4,130,47.5
+12,Standing Desk Converter,40.0,89.99,Office Supplies,120,60,5,75,85.0
+13,Digital Notepad,25.0,69.99,Electronics,200,95,4,110,66.0
+14,Smart Thermostat,60.0,149.99,Home Automation,90,55,5,70,140.0
+15,Yoga Mat Pro,10.0,29.99,Fitness,500,300,4,320,28.0
+16,Mini Projector,45.0,109.99,Electronics,180,80,4,100,100.0
+17,Wireless Keyboard,20.0,49.99,Office Supplies,220,105,4,125,47.0
+18,Pet Tracker,35.0,79.99,Pet Supplies,160,75,5,95,76.0
+19,Electric Toothbrush,22.0,59.99,Health,190,100,5,120,58.0
+20,Drone Camera,80.0,199.99,Electronics,130,50,4,65,190.0
+21,Eco-Friendly Water Bottle,5.0,12.99,Outdoor & Sports,500,200,4,250,11.5
+22,Eco-Friendly Water Bottle,5.0,13.99,Outdoor & Sports,500,180,4,230,11.5
+23,Eco-Friendly Water Bottle,5.0,11.99,Outdoor & Sports,500,210,5,270,12.0
+24,Eco-Friendly Water Bottle,5.0,10.99,Outdoor & Sports,500,220,4,280,11.5
+25,Eco-Friendly Water Bottle,5.0,14.99,Outdoor & Sports,500,160,3,200,10.0
+26,Wireless Earbuds,25.0,59.99,Electronics,300,150,5,180,55.0
+27,Wireless Earbuds,25.0,54.99,Electronics,300,170,5,200,55.0
+28,Wireless Earbuds,25.0,64.99,Electronics,300,130,4,160,52.0
+29,Wireless Earbuds,27.0,49.99,Electronics,300,190,4,220,54.0
+30,Wireless Earbuds,22.0,44.99,Electronics,300,140,3,180,48.5
+31,Organic Cotton T-Shirt,8.0,19.99,Apparel,400,100,4,120,18.5
+32,Organic Cotton T-Shirt,8.0,18.99,Apparel,400,120,4,140,18.0
+33,Organic Cotton T-Shirt,8.0,21.99,Apparel,400,90,3,100,16.5
+34,Organic Cotton T-Shirt,8.0,17.99,Apparel,400,130,5,160,19.5
+35,Organic Cotton T-Shirt,8.0,16.99,Apparel,400,140,5,170,19.5
+36,Smart Home Hub,40.0,99.99,Home Automation,150,75,4,90,95.0
+37,Smart Home Hub,40.0,94.99,Home Automation,150,90,5,110,97.0
+38,Smart Home Hub,40.0,89.99,Home Automation,150,65,3,110,92.0
+39,Smart Home Hub,40.0,104.99,Home Automation,150,70,4,80,95.0
+40,Smart Home Hub,30.0,109.99,Home Automation,150,60,3,65,84.0
+41,Electric Scooter,150.0,299.99,Transportation,80,40,5,50,285.0
+42,Electric Scooter,150.0,289.99,Transportation,80,45,5,55,280.0
+43,Electric Scooter,150.0,279.99,Transportation,80,50,4,60,270.0
+44,Electric Scooter,150.0,319.99,Transportation,80,35,4,45,295.0
+45,Electric Scooter,150.0,309.99,Transportation,80,30,3,40,290.0
+46,Noise-Canceling Headphones,50.0,129.99,Electronics,200,90,4,110,125.0
+47,Noise-Canceling Headphones,50.0,119.99,Electronics,200,100,5,130,120.0
+48,Noise-Canceling Headphones,50.0,139.99,Electronics,200,80,3,90,127.0
+49,Noise-Canceling Headphones,50.0,109.99,Electronics,200,95,4,115,115.0
+50,Noise-Canceling Headphones,50.0,99.99,Electronics,200,110,5,135,110.0
+51,Smartwatch,70.0,149.99,Wearables,250,130,5,160,145.0
+52,Smartwatch,70.0,139.99,Wearables,250,140,5,170,140.0
+53,Smartwatch,70.0,129.99,Wearables,250,150,4,180,135.0
+54,Smartwatch,70.0,119.99,Wearables,250,160,4,190,130.0
+55,Smartwatch,70.0,159.99,Wearables,250,120,3,150,147.0
+56,Portable Solar Charger,20.0,39.99,Outdoor & Sports,300,140,4,170,38.0
+57,Portable Solar Charger,20.0,35.99,Outdoor & Sports,300,150,5,180,36.0
+58,Portable Solar Charger,20.0,32.99,Outdoor & Sports,300,160,5,200,34.0
+59,Portable Solar Charger,20.0,44.99,Outdoor & Sports,300,130,3,150,40.0
+60,Portable Solar Charger,20.0,29.99,Outdoor & Sports,300,170,4,210,30.0
+61,Fitness Tracker,30.0,59.99,Wearables,350,180,4,200,57.0
+62,Fitness Tracker,30.0,55.99,Wearables,350,200,5,230,55.0
+63,Fitness Tracker,30.0,49.99,Wearables,350,210,5,240,50.0
+64,Fitness Tracker,30.0,65.99,Wearables,350,170,3,180,60.0
+65,Fitness Tracker,30.0,69.99,Wearables,350,160,3,170,62.0
+66,Bluetooth Speaker,15.0,45.99,Electronics,400,210,4,240,43.0
+67,Bluetooth Speaker,15.0,39.99,Electronics,400,230,5,260,40.0
+68,Bluetooth Speaker,15.0,35.99,Electronics,400,250,5,280,37.0
+69,Bluetooth Speaker,15.0,49.99,Electronics,400,190,3,210,45.0
+70,Bluetooth Speaker,15.0,29.99,Electronics,400,270,4,290,33.0
+71,UV Sanitizer Box,18.0,49.99,Health,250,110,4,130,47.5
+72,UV Sanitizer Box,18.0,44.99,Health,250,125,5,145,46.0
+73,UV Sanitizer Box,18.0,39.99,Health,250,140,5,160,42.0
+74,UV Sanitizer Box,18.0,54.99,Health,250,100,3,120,49.0
+75,UV Sanitizer Box,18.0,59.99,Health,250,90,3,100,50.0
+76,Standing Desk Converter,40.0,89.99,Office Supplies,120,60,5,75,85.0
+77,Standing Desk Converter,40.0,84.99,Office Supplies,120,65,5,80,82.0
+78,Standing Desk Converter,40.0,79.99,Office Supplies,120,70,4,85,80.0
+79,Standing Desk Converter,40.0,94.99,Office Supplies,120,55,4,70,88.0
+80,Standing Desk Converter,40.0,99.99,Office Supplies,120,50,3,65,90.0
+81,Digital Notepad,25.0,69.99,Electronics,200,95,4,110,66.0
+82,Digital Notepad,25.0,64.99,Electronics,200,100,5,120,63.0
+83,Digital Notepad,25.0,59.99,Electronics,200,110,5,130,60.0
+84,Digital Notepad,25.0,74.99,Electronics,200,85,4,100,70.0
+85,Digital Notepad,25.0,79.99,Electronics,200,75,3,90,72.0
+86,Smart Thermostat,60.0,149.99,Home Automation,90,55,5,70,140.0
+87,Smart Thermostat,60.0,139.99,Home Automation,90,60,5,75,135.0
+88,Smart Thermostat,60.0,129.99,Home Automation,90,65,4,80,130.0
+89,Smart Thermostat,60.0,159.99,Home Automation,90,50,3,65,142.0
+90,Smart Thermostat,60.0,119.99,Home Automation,90,70,5,85,125.0
+91,Yoga Mat Pro,10.0,29.99,Fitness,500,300,4,320,28.0
+92,Yoga Mat Pro,10.0,27.99,Fitness,500,320,5,340,26.5
+93,Yoga Mat Pro,10.0,24.99,Fitness,500,340,5,360,24.0
+94,Yoga Mat Pro,10.0,34.99,Fitness,500,280,4,300,30.0
+95,Yoga Mat Pro,10.0,39.99,Fitness,500,250,3,270,32.0
+96,Mini Projector,45.0,109.99,Electronics,180,80,4,100,100.0
+97,Mini Projector,45.0,99.99,Electronics,180,90,5,110,97.0
+98,Mini Projector,45.0,94.99,Electronics,180,100,5,120,95.0
+99,Mini Projector,45.0,119.99,Electronics,180,70,4,90,105.0
+100,Mini Projector,45.0,89.99,Electronics,180,110,5,130,90.0
+101,Wireless Keyboard,20.0,49.99,Office Supplies,220,105,4,125,47.0
+102,Wireless Keyboard,20.0,44.99,Office Supplies,220,115,5,140,45.0
+103,Wireless Keyboard,20.0,39.99,Office Supplies,220,125,5,160,42.0
+104,Wireless Keyboard,20.0,54.99,Office Supplies,220,95,4,115,48.0
+105,Wireless Keyboard,20.0,59.99,Office Supplies,220,85,3,100,50.0
+106,Pet Tracker,35.0,79.99,Pet Supplies,160,75,5,95,76.0
+107,Pet Tracker,35.0,74.99,Pet Supplies,160,85,5,105,73.0
+108,Pet Tracker,35.0,69.99,Pet Supplies,160,90,5,110,70.0
+109,Pet Tracker,35.0,84.99,Pet Supplies,160,65,4,85,78.0
+110,Pet Tracker,35.0,64.99,Pet Supplies,160,95,5,115,68.0
+111,Electric Toothbrush,22.0,59.99,Health,190,100,5,120,58.0
+112,Electric Toothbrush,22.0,54.99,Health,190,110,5,130,55.0
+113,Electric Toothbrush,22.0,49.99,Health,190,120,5,140,50.0
+114,Electric Toothbrush,22.0,64.99,Health,190,90,4,110,60.0
+115,Electric Toothbrush,22.0,69.99,Health,190,80,3,95,62.0
+116,Drone Camera,80.0,199.99,Electronics,130,50,4,65,190.0
+117,Drone Camera,80.0,189.99,Electronics,130,55,5,70,185.0
+118,Drone Camera,80.0,179.99,Electronics,130,60,5,75,180.0
+119,Drone Camera,80.0,209.99,Electronics,130,45,3,60,195.0
+120,Drone Camera,80.0,169.99,Electronics,130,65,5,80,175.0
+121,4K Action Camera,77.0,150.99,Electronics,300,100,4,120,145.0
+122,4K Action Camera,65.99,199.99,Electronics,300,220,5,240,190.0
+123,4K Action Camera,72.0,179.99,Electronics,280,130,4,150,175.0
+124,4K Action Camera,70.0,169.99,Electronics,250,110,4,140,160.0
+125,4K Action Camera,75.0,159.99,Electronics,260,150,5,170,158.0
+126,Ergonomic Office Chair,59.0,165.00,Office Supplies,500,60,4,100,160.0
+127,Ergonomic Office Chair,75.0,180.00,Office Supplies,100,60,4,120,175.0
+128,Ergonomic Office Chair,70.0,150.99,Office Supplies,200,75,4,130,148.0
+129,Ergonomic Office Chair,78.0,250.00,Office Supplies,150,30,5,90,240.0
+130,Ergonomic Office Chair,68.0,199.99,Office Supplies,180,45,4,105,190.0
+131,Organic Herbal Tea,3.99,9.99,Food & Beverages,100,40,4,60,9.5
+132,Organic Herbal Tea,4.99,5.99,Food & Beverages,300,150,5,170,5.8
+133,Organic Herbal Tea,4.49,6.49,Food & Beverages,250,100,4,140,6.0
+134,Organic Herbal Tea,4.79,7.49,Food & Beverages,220,110,5,160,7.2
+135,Organic Herbal Tea,3.49,8.99,Food & Beverages,120,50,3,90,8.5
+136,Stainless Steel Water Bottle,8.0,19.99,Accessories,1000,275,5,300,18.5
+137,Stainless Steel Water Bottle,7.5,17.99,Accessories,950,300,4,320,17.0
+138,Stainless Steel Water Bottle,8.2,21.99,Accessories,980,250,5,280,20.0
+139,Stainless Steel Water Bottle,8.5,22.99,Accessories,900,230,4,260,21.0
+140,Stainless Steel Water Bottle,7.8,18.99,Accessories,970,290,5,310,18.2
+141,Wireless Keyboard,18.0,21.99,Electronics,990,650,5,700,21.5
+142,Wireless Keyboard,19.0,23.99,Electronics,980,620,4,690,23.0
+143,Wireless Keyboard,17.0,19.99,Electronics,995,670,5,720,19.5
+144,Wireless Keyboard,20.0,25.99,Electronics,970,640,4,710,25.0
+145,Wireless Keyboard,16.5,20.99,Electronics,1000,660,5,730,20.5
+
+
